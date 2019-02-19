@@ -1,0 +1,169 @@
+* {
+  font-family: 'Roboto', sans-serif; }
+
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+/* remember to define focus styles! */
+:focus {
+  outline: 0; }
+
+/* remember to highlight inserts somehow! */
+ins {
+  text-decoration: none; }
+
+del {
+  text-decoration: line-through; }
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+nav {
+  background-color: #202124;
+  padding-left: 15px; }
+  nav .nav-wrapper .brand-logo {
+    color: #202329;
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #9e9e9e; }
+  nav .nav-wrapper .form input[type="search"]:focus {
+    background-color: transparent;
+    color: #ffffff; }
+  nav .nav-wrapper ul li a {
+    color: #9e9e9e;
+    font-size: 1em; }
+  nav .nav-wrapper ul li:hover a {
+    color: #ffffff; }
+
+header {
+  padding-bottom: 25px; }
+  header .center {
+    width: 450px;
+    margin: 0 auto;
+    margin-left: 25px;
+    display: inline-block; }
+    header .center article {
+      display: inline-block; }
+      header .center article .img-container {
+        width: 100px;
+        height: 100px;
+        float: left;
+        overflow: hidden; }
+        header .center article .img-container .img {
+          width: 100%; }
+      header .center article .content {
+        padding-left: 120px; }
+        header .center article .content .title {
+          color: rgba(0, 0, 0, 0.84);
+          font-size: 17px;
+          padding: 0; }
+        header .center article .content .category {
+          color: rgba(0, 0, 0, 0.54);
+          font-size: 15px;
+          line-height: 20px;
+          padding-top: 15px; }
+  header .left, header .right {
+    width: 30%;
+    float: left; }
+    header .left article .img-container, header .right article .img-container {
+      width: 100%;
+      height: 150px;
+      overflow: hidden; }
+      header .left article .img-container .img, header .right article .img-container .img {
+        width: 100%; }
+    header .left article .content, header .right article .content {
+      text-align: right; }
+      header .left article .content .title, header .right article .content .title {
+        color: rgba(0, 0, 0, 0.84);
+        font-size: 24px;
+        padding: 15px 0; }
+      header .left article .content .description, header .right article .content .description {
+        color: rgba(0, 0, 0, 0.54);
+        font-size: 15px;
+        line-height: 20px; }
+      header .left article .content .category, header .right article .content .category {
+        color: rgba(0, 0, 0, 0.84);
+        font-size: 16px;
+        font-weight: bold;
+        padding: 15px 0; }
+  header .right {
+    float: right; }
+
+.card .card-content {
+  border: 1px solid #e6e6e6; }
+  .card .card-content .card-title {
+    color: #202329;
+    font-size: 15px; }
+  .card .card-content p {
+    color: #333333;
+    padding-bottom: 15px;
+    font-size: 14px; }
+
+.card:hover .card-image img {
+  opacity: 0.7; }
+
+.card:hover .card-content {
+  background-color: #202329; }
+  .card:hover .card-content .card-title {
+    color: #ffffff;
+    font-size: 15px; }
+  .card:hover .card-content p {
+    color: #ffffff;
+    padding-bottom: 15px;
+    font-size: 14px; }
+
+.preloader-wrapper {
+  text-align: center;
+  left: 45%;
+  top: 40%;
+  position: absolute;
+  z-index: 2; }
+
+nav {
+  background-color: #202124;
+  padding-left: 15px; }
+  nav .nav-wrapper .brand-logo {
+    color: #202329;
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #9e9e9e; }
+  nav .nav-wrapper .form input[type="search"]:focus {
+    background-color: transparent;
+    color: #ffffff; }
+  nav .nav-wrapper ul li a {
+    color: #9e9e9e;
+    font-size: 1em; }
+  nav .nav-wrapper ul li:hover a {
+    color: #ffffff; }

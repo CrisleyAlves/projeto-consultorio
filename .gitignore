@@ -1,0 +1,6 @@
+/react-web/node_modules/
+/react-web/package-lock.json
+
+/rest-api/node_modules/
+/rest-api/nodemon.json
+/rest-api/package-lock.json
